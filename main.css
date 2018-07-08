@@ -4,14 +4,19 @@
 }
 
 .boton{
+    background-color:seagreen;
+    color: whitesmoke;
     font-size: 25px;
     width: 100px;
     height: 100px;
     margin:2;
     cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    transition: width 2s;
 }
 
-tr{
+tr{ 
     display: block;
     width: 200px;
 }
@@ -20,5 +25,19 @@ tr{
     margin: 10px;
     width: 420px;
     height: 50px;;
-    font-size: 20px;
+    font-size: 25px;
+    text-align: right;
+    font-family: sans-serif;
+    font-style: oblique;
+}
+
+.main{
+    background-color: whitesmoke;
+    border-radius: 25px;
+    width: 440px;
+}
+
+
+div:hover {
+    width: 300px;
 }

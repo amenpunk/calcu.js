@@ -21,33 +21,36 @@
 
         <table>
         <tr id="uno">
-            <th><input type="button" value="1" class="boton"/></th>
-            <th><input type="button" value="2" class="boton"/></th>
-            <th><input type="button" value="3" class="boton"/></th>
-            <th><input type="button" value="4" class="boton"/></th>
+            <th><input type="button" value="1" class="boton"  onclick="insertar(1)"/></th>
+            <th><input type="button" value="2" class="boton"  onclick="insertar(2)"/></th>
+            <th><input type="button" value="3" class="boton"  onclick="insertar(3)"/></th>
+            <th><input type="button" value="4" class="boton"  onclick="insertar(4)"/></th>
         </tr>
 
         <tr id="dos">
             
-            <th><input type="button" value="5" class="boton"/></th>
-            <th><input type="button" value="6" class="boton"/></th>
-            <th><input type="button" value="7" class="boton"/></th>
-            <th><input type="button" value="8" class="boton"/></th>
+            <th><input type="button" value="5" class="boton"  onclick="insertar(5)"/></th>
+            <th><input type="button" value="6" class="boton"  onclick="insertar(6)"/></th>
+            <th><input type="button" value="7" class="boton"  onclick="insertar(7)"/></th>
+            <th><input type="button" value="8" class="boton"  onclick="insertar(8)"/></th>
         </tr>
 
         <tr id="tres">
-            <th><input type="button" value="9" class="boton"/></th>
-            <th><input type="button" value="0" class="boton"/></th>
-            <th><input type="button" value="+" class="boton"/></th>
-            <th><input type="button" value="-" class="boton"/></th>
+            <th><input type="button" value="9" class="boton"  onclick="insertar(9)"/></th>
+            <th><input type="button" value="0" class="boton"  onclick="insertar(0)"/></th>
+            <th><input type="button" value="+" class="boton"  onclick="insertar('+')"/></th>
+            <th><input type="button" value="-" class="boton"  onclick="insertar('-')"/></th>
         </tr>
 
         <tr id="cuatro">
-            <th><input type="button" value="*" class="boton"/></th>
-            <th><input type="button" value="/" class="boton"/></th>
-            <th><input type="button" value="=" class="boton" style="width:205px ;"/></th>
+            <th><input type="button" value="*" class="boton"  onclick="insertar('*')"/></th>
+            <th><input type="button" value="/" class="boton"  onclick="insertar('/')"/></th>
+            <th><input type="button" value="=" class="boton" style="width:205px;" onclick="igual();"/></th>
         </tr>
-
+        <tr id="cinco">
+            <audio id="audio" src="http://www.soundjay.com/button/beep-07.wav" autostart="false" ></audio>
+            <th><input type="button" value="Clean" class="boton" onclick="limp();playSound();" style="width:420; height:50px;"</th>
+        </tr>
 
     </div>
     <script src="main.js"></script>
